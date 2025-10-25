@@ -15,50 +15,100 @@
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     line-height:1.4;
   }
+
   .wrap{
-    max-width:300px;   /* keep content within 300px */
+    max-width:300px;
     margin:20px auto;
-    padding:0 20px 60px 20px;    /* 20px side padding */
+    padding:0 20px 60px 20px;
     text-align:left;
+    min-height: calc(300px + 260px);
   }
+
   h1{
     margin:0 0 10px 0;
     font-weight:800;
-    font-size:clamp(50px,9vw,70px); /* ~1/3 larger */
+    font-size:clamp(50px,9vw,70px);
     line-height:1.05;
   }
+
   .hero{
     display:block;
     width:100%;
-    max-width:300px;   /* never wider than 300px */
+    max-width:300px;
     height:auto;
+    aspect-ratio:1/1;
     margin:8px 0 12px 0;
   }
+
   p.intro{
     margin:10px 0 18px 0;
     font-size:1.3rem;
     font-weight:600;
   }
-  nav ul{list-style:none;margin:0;padding:0}
-  nav li{margin:10px 0;font-size:1.3rem;font-weight:600}
-  a{color:inherit;text-decoration:none;font-weight:600}
-  a:hover,a:focus{text-decoration:underline}
-  .divider{margin:6px 0 0 0;font-weight:700;}
 
-a.tickets { color:#1e90ff; }
-a.tickets:hover, a.tickets:focus { color:#0078ff; text-decoration:underline; }
+  nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
 
-a.contestant { color:#FFB6C1; }
-a.contestant:hover, a.tickets:focus { color:#FFB6C1; text-decoration:underline; }
+  nav li{
+    margin:10px 0;
+    font-size:1.3rem;
+    font-weight:600;
+  }
 
+  a{
+    color:inherit;
+    text-decoration:none;
+    font-weight:600;
+  }
+
+  a:hover,
+  a:focus{
+    text-decoration:underline;
+  }
+
+  .divider{
+    margin:6px 0 0 0;
+    font-weight:700;
+  }
+
+  a.tickets {
+    color:#2E86C1;
+  }
+
+  a.tickets:hover,
+  a.tickets:focus {
+    color:#2E86C1;
+    text-decoration:underline;
+  }
+
+  a.contestant {
+    color:#F28DB2;
+  }
+
+  a.contestant:hover,
+  a.contestant:focus {
+    color:#F28DB2;
+    text-decoration:underline;
+  }
+
+  img{
+    display:block;
+  }
 </style>
 
 <body>
   <main class="wrap">
     <h1>Too Thirsty</h1>
 
-    <!-- 500px wide source image; will scale down on smaller screens -->
-    <img class="hero" src="SMC-BIG.webp" alt="Sister Mary Celine (Too Thirsty)" width="300">
+   <img class="hero"
+     src="SMC-BIG.webp"
+     alt="Sister Mary Celine (Too Thirsty)"
+     width="300" height="300"
+     loading="eager"
+     fetchpriority="high">
 
     <p class="intro">
       Welcome to the Official Website of the Too Thirsty&#8482; Dating Show.
@@ -66,32 +116,21 @@ a.contestant:hover, a.tickets:focus { color:#FFB6C1; text-decoration:underline; 
 
     <nav aria-label="Primary">
       <ul>
-        
         <li class="divider">+</li>
-
-
-	<li><a class="tickets" href="https://www.tickettailor.com/events/toothirsty/1922177">Buy tickets</a></li>
+        <li><a class="tickets" href="https://www.tickettailor.com/events/toothirsty/1922177">Buy tickets</a></li>
         <li><a class="contestant" href="https://forms.gle/NmSvAR4SXDWqpeZj6">Apply to be a Contestant</a></li>
         <li class="divider">+</li>
-
         <li><a href="https://uk.trustpilot.com/review/toothirsty.com">Trustpilot reviews</a></li>
         <li><a href="https://docs.google.com/document/d/1WHrGC9zUZI1A-uh7nwtP3E0zlRHqfKsT-wEDIPOtG8M/edit?usp=sharing">FAQ</a></li>
         <li><a href="https://www.tiktok.com/@toothirsty.com">Shop</a></li>
         <li><a href="https://forms.gle/5rVpJGUv71SRgWrz7">Work with us</a></li>
-
         <li class="divider">+</li>
-
         <li><a href="https://www.tiktok.com/@toothirsty.com">TikTok</a></li>
         <li><a href="https://www.youtube.com/@TooThirsty">YouTube</a></li>
         <li><a href="https://www.instagram.com/toothirsty.ig/">Instagram</a></li>
-
-	<li class="divider">+</li>
-
-         <li><a href="https://docs.google.com/document/d/1WHrGC9zUZI1A-uh7nwtP3E0zlRHqfKsT-wEDIPOtG8M/edit?usp=sharing">Contact</a></li>
-	<li>All Rights Reserved</li>
-
-
-
+        <li class="divider">+</li>
+        <li><a href="https://docs.google.com/document/d/1WHrGC9zUZI1A-uh7nwtP3E0zlRHqfKsT-wEDIPOtG8M/edit?usp=sharing">Contact</a></li>
+        <li>All Rights Reserved</li>
       </ul>
     </nav>
   </main>
