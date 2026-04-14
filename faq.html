@@ -16,239 +16,252 @@
 </script>
 
 <style>
+  *{
+    box-sizing:border-box;
+  }
+
   html,body{
     margin:0;
     padding:0;
-    background:#000 url('repeat.webp') repeat;
     color:#111;
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     line-height:1.4;
+    background:#000 url('repeat.webp') repeat;
   }
 
-.wrap{
-  max-width:600px;
-  margin:0 auto;
-  padding:0;
-  text-align:left;
-}
-
-.hero{
-  display:block;
-  width:100%;
-  height:auto;
-  margin:0;
-}
-
-img{
-  display:block;
-}
-
-.hero-link{
-  display:block;
-  text-decoration:none;
-  color:inherit;
-}
-
-/* LINK COLOR */
-a{
-  color:#56BFF9;
-  text-decoration:none;
-}
-
-a:hover{
-  text-decoration:underline;
-}
-
-.faq{
-  max-width:600px;
-  margin:30px auto;
-  padding:0 20px;
-  background:#000;
-  color:#fff;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-}
-
-.faq h2{
-  font-size:28px;
-  font-weight:800;
-  margin-bottom:20px;
-  letter-spacing:-0.02em;
-}
-
-.faq details{
-  border-bottom:1px solid #333;
-  padding:16px 0;
-}
-
-/* QUESTION COLOR */
-.faq summary{
-  cursor:pointer;
-  font-size:18px;
-  font-weight:700;
-  line-height:1.4;
-  list-style:none;
-  position:relative;
-  padding-right:26px;
-  color:#F8F057;
-}
-
-.faq summary::-webkit-details-marker{
-  display:none;
-}
-
-.faq summary::after{
-  content:"+";
-  position:absolute;
-  right:0;
-  top:0;
-  font-size:22px;
-}
-
-.faq details[open] summary::after{
-  content:"−";
-}
-
-.faq p{
-  font-size:16px;
-  line-height:1.65;
-  color:#ddd;
-  margin-top:10px;
-}
-
-@media (max-width:480px){
-  .faq h2{
-    font-size:24px;
+  img{
+    display:block;
+    max-width:100%;
+    height:auto;
   }
-  .faq summary{
-    font-size:17px;
+
+  a{
+    color:#56BFF9;
+    text-decoration:none;
   }
-  .faq p{
-    font-size:15px;
-    line-height:1.7;
+
+  a:hover{
+    text-decoration:underline;
   }
-}
+
+  .page{
+    width:100%;
+  }
+
+  .desktop-layout{
+    display:block;
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    background:black url('background.webp') no-repeat top center;
+    background-size:100% auto;
+    overflow:hidden;
+  }
+
+  .desktop-links{
+    position:absolute;
+    top:30px;
+    right:30px;
+    text-align:right;
+    z-index:10;
+  }
+
+  .desktop-links a{
+    display:block;
+    color:#FFEF00;
+    font-weight:700;
+    font-size:18px;
+    line-height:1.4;
+    margin-bottom:6px;
+    text-decoration:none;
+  }
+
+  .desktop-links a:hover{
+    color:#56BFF9;
+    text-decoration:none;
+  }
+
+  .desktop-faq{
+    position:absolute;
+    top:123px;
+    right:30px;
+    width:clamp(400px, 51vw, 582px);
+    max-height:calc(100vh - 140px);
+    overflow:auto;
+    padding:28px 30px 10px;
+    background:rgba(0,0,0,0.9);
+    color:#fff;
+  }
+
+  .desktop-faq h2,
+  .mobile-faq h2{
+    font-size:28px;
+    font-weight:800;
+    margin:0 0 20px;
+    letter-spacing:-0.02em;
+    color:#F8F057;
+  }
+
+  .desktop-faq details,
+  .mobile-faq details{
+    border-bottom:1px solid #333;
+    padding:16px 0;
+  }
+
+  .desktop-faq summary,
+  .mobile-faq summary{
+    cursor:pointer;
+    font-size:18px;
+    font-weight:700;
+    line-height:1.4;
+    list-style:none;
+    position:relative;
+    padding-right:26px;
+    color:#F8F057;
+  }
+
+  .desktop-faq summary::-webkit-details-marker,
+  .mobile-faq summary::-webkit-details-marker{
+    display:none;
+  }
+
+  .desktop-faq summary::after,
+  .mobile-faq summary::after{
+    content:"+";
+    position:absolute;
+    right:0;
+    top:0;
+    font-size:22px;
+  }
+
+  .desktop-faq details[open] summary::after,
+  .mobile-faq details[open] summary::after{
+    content:"−";
+  }
+
+  .desktop-faq p,
+  .mobile-faq p{
+    font-size:16px;
+    line-height:1.65;
+    color:#ddd;
+    margin:10px 0 0;
+  }
+
+  .mobile-layout{
+    display:none;
+    width:100%;
+    background:#000;
+  }
+
+  .mobile-page{
+    width:100%;
+    max-width:390px;
+    margin:0 auto;
+  }
+
+  .mobile-header{
+    display:block;
+    width:100%;
+    max-width:390px;
+    margin:0 auto;
+  }
+
+  .mobile-header img{
+    display:block;
+    width:100%;
+    height:auto;
+  }
+
+  .mobile-faq{
+    margin:0 auto 30px;
+    max-width:390px;
+    padding:20px;
+    background:#000;
+    color:#fff;
+  }
+
+  .hero-link{
+    display:block;
+  }
+
+  @media (max-width:780px){
+    html,body{
+      background:#000;
+    }
+
+    .desktop-layout{
+      display:none;
+    }
+
+    .mobile-layout{
+      display:block;
+    }
+
+    .mobile-faq h2{
+      font-size:24px;
+    }
+
+    .mobile-faq summary{
+      font-size:17px;
+    }
+
+    .mobile-faq p{
+      font-size:15px;
+      line-height:1.7;
+    }
+  }
 </style>
 
 <body>
-  <main class="wrap">
+  <main class="page">
 
-    <a href="https://tickets.toothirsty.com/" class="hero-link">
-      <img class="hero"
-           src="header.webp"
-           alt="Too Thirsty"
-           loading="eager"
-           fetchpriority="high">
-    </a>
+    <div class="desktop-layout">
+      <div class="desktop-links">
+        <a href="https://tickets.toothirsty.com/">BUY TICKETS</a>
+    
+        <a href="https://wa.me/447544856788">SEND US A MESSAGE</a>
+      </div>
 
-    <section class="faq">
-      <h2>Frequently Asked Questions</h2>
+      <section class="desktop-faq">
+        <div class="faq-container"></div>
+      </section>
+    </div>
 
-      <details>
-        <summary>What is Too Thirsty?</summary>
-        <p>
-          Too Thirsty is a live dating show and party. Picture it: one girl is on stage with two guys. She can't see them. They can't see her. She asks them questions to decide who is the best match for her. Then comes the big reveal. Does she still fancy him? Does she prefer one of the others instead? Do they all give her the ick?.
-          <br><br>
-          After the show finishes, we host an After Party where you can mingle with other singles.
-        </p>
-      </details>
+    <div class="mobile-layout">
+      <div class="mobile-page">
+        <div class="mobile-header">
+          <img
+            class="hero"
+            src="1-HEADER.webp"
+            alt="Too Thirsty"
+            width="390"
+            height="617"
+            loading="eager"
+            fetchpriority="high">
 
-      <details>
-        <summary>How do I become a Contestant?</summary>
-        <p>
-          Buy a ticket and check the box that says you want to be a Contestant. After that, send us a <a href="https://wa.me/447544856788">WhatsApp message</a> with a 1 minute voice note saying why you want to be on the show. Also state your age. Lastly, please send us a pic or a link to your social media.
-        </p>
-      </details>
+          <a href="https://tickets.toothirsty.com/" class="hero-link">
+            <img
+              class="hero"
+              src="2-BUY-TICKETS.webp"
+              alt="Buy Tickets"
+              width="390"
+              height="184">
+          </a>
+        </div>
 
-      <details>
-        <summary>Is this real? Do people actually get dates on stage?</summary>
-        <p>
-          Yes. 100% of our contestants have gone on a date. 
-        </p>
-      </details>
-
-      <details>
-        <summary>What is the vibe?</summary>
-        <p>
-          Very wholesome. Also funny. 
-        </p>
-      </details>
-
-      <details>
-        <summary>Are there prizes?</summary>
-        <p>
-          Yes. Contestants can win prizes.  
-        </p>
-      </details>
-
-      <details>
-        <summary>What is the itinerary of the show?</summary>
-        <p>
-          Check your ticket, but usually the show starts at 8, finishes at 9:30 with a party after. 
-        </p>
-      </details>
-
-      <details>
-        <summary>Where is the party?</summary>
-        <p>
-          Same location as the show.  
-        </p>
-      </details>
-
-      <details>
-        <summary>When is your next show?</summary>
-        <p>
-          Click on “Buy Tickets” on our website toothirsty.com to see upcoming show dates.
-        </p>
-      </details>
-
-      <details>
-        <summary>Do you offer refunds?</summary>
-        <p>
-          No.
-        </p>
-      </details>
-
-      <details>
-        <summary>I’m broke. Do you offer discounted tickets?</summary>
-        <p>
-          Sometimes. Send us a DM for details.
-        </p>
-      </details>
-
-      <details>
-        <summary>Are the shows filmed? Can I watch them online?</summary>
-        <p>
-          Yes. The shows are filmed and we post them on <a href="https://www.youtube.com/@TooThirsty">YouTube</a>.
-        </p>
-      </details>
-
-      <details>
-        <summary>I’m from the press. Can I cover you?</summary>
-        <p>
-          Please contact us at team@toothirsty.com.
-        </p>
-      </details>
-
-      <details>
-        <summary>Do you welcome stag dos or hen dos?</summary>
-        <p>
-          Yes.
-        </p>
-      </details>
-
-      <details>
-        <summary>How can I contact you?</summary>
-        <p>
-          Email us at team@toothirsty.com or call ‪+44 7544 856788‬. You can also message us on TikTok or Instagram.
-          <br><br>
-          Click here to go to WhatsApp:
-          <br>
-          <a href="https://wa.me/447544856788">https://wa.me/447544856788</a>
-        </p>
-      </details>
-
-    </section>
+        <section class="mobile-faq">
+          <div class="faq-container"></div>
+        </section>
+      </div>
+    </div>
 
   </main>
+
+  <script src="faq-content.js"></script>
+  <script>
+    document.querySelectorAll('.faq-container').forEach(function(container) {
+      container.innerHTML = window.faqContent || '';
+    });
+  </script>
 </body>
 </html>
