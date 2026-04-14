@@ -13,6 +13,16 @@ window.faqContent = `
 </details>
 
 <details>
+  <summary>Where can I buy tickets?</summary>
+  <p>
+   You can <a href="https://tickets.toothirsty.com/">buy tickets here</a>.
+  </p>
+</details>
+
+
+
+
+<details>
   <summary>How do I become a Contestant?</summary>
   <p>
     <a href="https://tickets.toothirsty.com/">Buy a ticket</a> and check the box that says you are interested in being a Contestant. After that, send us a <a href="https://wa.me/447544856788">WhatsApp message</a> with a 1 minute voice note saying why you want to be on the show. Also state your age. Lastly, please send us a pic or a link to your social media.
@@ -20,6 +30,13 @@ window.faqContent = `
     PLEASE NOTE: Expressing interest in being a Contestant does not guarantee a place on stage. Also, you may retract your application at anytime. Just say you're not feeling it anymore.
     <br><br>
     Contestants are chosen the night of.
+  </p>
+</details>
+
+<details>
+  <summary>Is this a dating event? Can I meet new people even if I don't go on stage?</summary>
+  <p>
+    It's not exclusively a dating event, but there will be light social games to facilitate connecting with others, many of whom are single! And of course, there is the After Party. Woot! Woot!
   </p>
 </details>
 
@@ -75,9 +92,9 @@ window.faqContent = `
 
 
 <details>
-  <summary>I’m broke. Do you offer discounted tickets for groups?</summary>
+  <summary>Do you offer discounted tickets?</summary>
   <p>
-    Almost always. Send us a message on <a href="https://wa.me/447544856788">WhatsApp</a>.
+    Sometimes. Especially if you're coming as a group. Send us a message on <a href="https://wa.me/447544856788">WhatsApp</a>.
   </p>
 </details>
 
