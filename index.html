@@ -7,6 +7,10 @@
   <meta name="description" content="Too Thirsty Dating Show London. Click to get tickets!">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG530ZXYP6"></script>
   <script>
@@ -62,6 +66,44 @@
       text-decoration: none;
     }
 
+    /* LOADER */
+    #loader {
+      position: fixed;
+      inset: 0;
+      background: #000;
+      z-index: 9999;
+      opacity: 1;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
+    }
+
+    .shimmer {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        #111 25%,
+        #222 50%,
+        #111 75%
+      );
+      background-size: 200% 100%;
+      animation: shimmer 1.2s linear infinite;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+
+    .js #content {
+      opacity: 0;
+      transition: opacity 0.6s ease;
+    }
+
+    .js #content.loaded {
+      opacity: 1;
+    }
+
     /* DESKTOP VERSION */
     .desktop-layout {
       display: block;
@@ -88,10 +130,11 @@
       font-size: 18px;
       line-height: 1.4;
       margin-bottom: 6px;
+      transition: color 0.2s ease;
     }
 
     .desktop-links a:hover {
-      color: #ADD8E6;
+      color: #56BFF9;
     }
 
     .desktop-video-wrap {
@@ -129,76 +172,94 @@
       background: #000;
     }
 
- /* SWITCH TO MOBILE
-   Triggers on portrait screens or narrower desktop windows */
-@media (max-width: 780px) {
-  .desktop-layout {
-    display: none;
-  }
+    /* SWITCH TO MOBILE
+       Triggers on portrait screens or narrower desktop windows */
+    @media (max-width: 780px) {
+      .desktop-layout {
+        display: none;
+      }
 
-  .mobile-layout {
-    display: block;
-  }
-}
+      .mobile-layout {
+        display: block;
+      }
+    }
   </style>
 </head>
 <body>
+  <div id="loader" aria-hidden="true">
+    <div class="shimmer"></div>
+  </div>
 
-  <!-- DESKTOP / HORIZONTAL -->
-  <div class="desktop-layout">
-    <div class="desktop-links">
-      <a href="https://tickets.toothirsty.com/">BUY TICKETS</a>
-      <a href="faq.html">READ THE FAQ</a>
-      <a href="https://wa.me/447544856788">DM US</a>
+  <div id="content">
+    <!-- DESKTOP / HORIZONTAL -->
+    <div class="desktop-layout">
+      <div class="desktop-links">
+        <a href="https://tickets.toothirsty.com/">BUY TICKETS</a>
+        <a href="faq.html">READ THE FAQ</a>
+        <a href="https://wa.me/447544856788">DM US</a>
+      </div>
+
+      <div class="desktop-video-wrap">
+        <video autoplay muted loop playsinline>
+          <source src="SQUARE-MASK.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
 
-    <div class="desktop-video-wrap">
-      <video autoplay muted loop playsinline>
-        <source src="SQUARE-MASK.mp4" type="video/mp4">
-      </video>
+    <!-- MOBILE / VERTICAL -->
+    <div class="mobile-layout">
+      <div class="mobile-page">
+        <img src="1-HEADER.webp" alt="Header" width="390" height="617">
+
+        <a href="https://tickets.toothirsty.com/">
+          <img src="2-BUY-TICKETS.webp" alt="Buy Tickets" width="390" height="184">
+        </a>
+
+        <img src="3-TOP-VIDEO.webp" alt="Top Video Section" width="390" height="160">
+
+        <video
+          class="square-video"
+          width="390"
+          height="390"
+          autoplay
+          muted
+          playsinline
+          loop
+          preload="auto"
+        >
+          <source src="SQUARE.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <img src="4-BOTTOM-VIDEO.webp" alt="Bottom Video Section" width="390" height="665">
+
+        <a href="faq.html">
+          <img src="5-READ-FAQ.webp" alt="Read FAQ" width="390" height="348">
+        </a>
+
+        <a href="https://wa.me/447544856788">
+          <img src="6-DM-WHATSAPP.webp" alt="DM WhatsApp" width="390" height="427">
+        </a>
+
+        <a href="https://www.youtube.com/@TooThirsty">
+          <img src="7-YOUTUBE.webp" alt="YouTube" width="390" height="372">
+        </a>
+      </div>
     </div>
   </div>
 
-  <!-- MOBILE / VERTICAL -->
-  <div class="mobile-layout">
-    <div class="mobile-page">
-      <img src="1-HEADER.webp" alt="Header" width="390" height="617">
+  <script>
+    window.addEventListener('load', function () {
+      const loader = document.getElementById('loader');
+      const content = document.getElementById('content');
 
-      <a href="https://tickets.toothirsty.com/">
-        <img src="2-BUY-TICKETS.webp" alt="Buy Tickets" width="390" height="184">
-      </a>
+      content.classList.add('loaded');
+      loader.style.opacity = '0';
 
-      <img src="3-TOP-VIDEO.webp" alt="Top Video Section" width="390" height="160">
-
-      <video
-        class="square-video"
-        width="390"
-        height="390"
-        autoplay
-        muted
-        playsinline
-        loop
-        preload="auto"
-      >
-        <source src="SQUARE.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <img src="4-BOTTOM-VIDEO.webp" alt="Bottom Video Section" width="390" height="665">
-
-      <a href="faq.html">
-        <img src="5-READ-FAQ.webp" alt="Read FAQ" width="390" height="348">
-      </a>
-
-      <a href="https://wa.me/447544856788">
-        <img src="6-DM-WHATSAPP.webp" alt="DM WhatsApp" width="390" height="427">
-      </a>
-
-      <a href="https://www.youtube.com/@TooThirsty">
-        <img src="7-YOUTUBE.webp" alt="YouTube" width="390" height="372">
-      </a>
-    </div>
-  </div>
-
+      setTimeout(function () {
+        loader.style.display = 'none';
+      }, 400);
+    });
+  </script>
 </body>
 </html>
