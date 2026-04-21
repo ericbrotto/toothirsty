@@ -106,7 +106,7 @@ window.faqContent = `
 <details>
   <summary>Are the shows filmed? Can I watch them online?</summary>
   <p>
-    Yes. The shows are filmed and we post them on <a href="https://www.youtube.com/@TooThirsty">YouTube</a>.
+    Yes. The shows are filmed and we post them on <a href="https://www.youtube.com/@TooThirsty">YouTube</a>. You can also follow us on <a href="https://www.instagram.com/toothirsty.official/">Instagram</a> and <a href="https://www.tiktok.com/@toothirsty.official">TikTok</a>.
   </p>
 </details>
 
@@ -137,4 +137,23 @@ window.faqContent = `
     Email us at team@toothirsty.com or DM us on <a href="https://wa.me/447544856788">WhatsApp</a> at ‪+44 7544 856788‬. Don't message us on social media. We're slow to respond on there.
   </p>
 </details>
+
+
+<details>
+  <summary>Do you give dating advice?</summary>
+  <p>
+    We've published some articles, but to be honest, that is mostly for SEO reasons. All of our good stuff is on <a href="https://www.youtube.com/@TooThirsty">YouTube</a>, <a href="https://www.instagram.com/toothirsty.official/">Instagram</a> and <a href="https://www.tiktok.com/@toothirsty.official">TikTok</a> That said, here are some of articles:
+  <br>
+<ul>
+  <li><a href="https://toothirsty.com/article-1-dating-events-in-london.html">London Dating Events</a></li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+
+  </p>
+</details>
+
+
+
+
 `;
