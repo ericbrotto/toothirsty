@@ -19,13 +19,18 @@ window.faqContent = `
   </p>
 </details>
 
-
+<details>
+  <summary>I'm married / have a partner. Is this event suitable for me?</summary>
+  <p>
+   Yes, 100%. Too Thirsty is primarily a comedy show and party, so all are welcome for that. The social ice breakers we play are only a small part, and are completely optional. 
+  </p>
+</details>
 
 
 <details>
   <summary>How do I become a Contestant?</summary>
   <p>
-    <a href="https://tickets.toothirsty.com/">Buy a ticket</a> and check the box that says you are interested in being a Contestant. After that, send us a <a href="https://wa.me/447544856788">WhatsApp message</a> with a 1 minute voice note saying why you want to be on the show. Also state your age. Lastly, please send us a pic or a link to your social media.
+    <a href="https://tickets.toothirsty.com/">Buy a ticket</a> and check the box that says you are interested in being a Contestant. After that, send us a <a href="https://wa.me/447544856788">WhatsApp message</a> with a 1 minute voice note saying why you want to be on the show and that you agree to be filmed for the purposes of social media. Also state your age. Lastly, please send us a profile pic or a link to your Instagram or TikTok (be sure it's not set to private).
     <br><br>
     PLEASE NOTE: Expressing interest in being a Contestant does not guarantee a place on stage. Also, you may retract your application at anytime. Just say you're not feeling it anymore.
     <br><br>
@@ -57,7 +62,7 @@ window.faqContent = `
 <details>
   <summary>Are there prizes?</summary>
   <p>
-    Yes. Contestants can win prizes.
+    Yes. There are prizes for both audience members and Contestants.
   </p>
 </details>
 
@@ -108,7 +113,14 @@ window.faqContent = `
 <details>
   <summary>I’m from the press. Can I cover you?</summary>
   <p>
-    Please contact us at team@toothirsty.com or on <a href="https://wa.me/447544856788">WhatsApp</a>.
+    Yes. Please contact us at team@toothirsty.com or on <a href="https://wa.me/447544856788">WhatsApp</a>.
+  </p>
+</details>
+
+<details>
+  <summary>Do you do brand partnerships?</summary>
+  <p>
+    Yes. Please contact us at team@toothirsty.com or on <a href="https://wa.me/447544856788">WhatsApp</a>.
   </p>
 </details>
 
