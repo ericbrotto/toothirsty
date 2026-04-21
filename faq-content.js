@@ -142,12 +142,42 @@ window.faqContent = `
 <details>
   <summary>Do you give dating advice?</summary>
   <p>
-    We've published some articles, but to be honest, that is mostly for SEO reasons. All of our good stuff is on <a href="https://www.youtube.com/@TooThirsty">YouTube</a>, <a href="https://www.instagram.com/toothirsty.official/">Instagram</a> and <a href="https://www.tiktok.com/@toothirsty.official">TikTok</a> That said, here are some of articles:
+    We've published some articles, but to be honest, that is mostly for SEO reasons. All of our good stuff is on <a href="https://www.youtube.com/@TooThirsty">YouTube</a>, <a href="https://www.instagram.com/toothirsty.official/">Instagram</a> and <a href="https://www.tiktok.com/@toothirsty.official">TikTok</a> <br><br>That said, here are some of posts:
   <br>
 <ul>
-  <li><a href="https://toothirsty.com/article-1-dating-events-in-london.html">London Dating Events</a></li>
-  <li>Second item</li>
-  <li>Third item</li>
+    <li><a href="article-1-dating-events-in-london.html">Dating Events in London</a></li>
+    <li><a href="article-10-speed-dating-vs-dating-shows-which-is-better.html">Speed Dating vs Dating Shows Which Is Better</a></li>
+    <li><a href="article-11-what-happens-at-a-dating-show-full-breakdown.html">What Happens at a Dating Show Full Breakdown</a></li>
+    <li><a href="article-12-is-a-dating-show-worth-it-honest-review.html">Is a Dating Show Worth It Honest Review</a></li>
+    <li><a href="article-13-best-singles-events-in-london-this-month.html">Best Singles Events in London This Month</a></li>
+    <li><a href="article-14-dating-events-in-soho-london.html">Dating Events in Soho London</a></li>
+    <li><a href="article-15-singles-nights-in-shoreditch.html">Singles Nights in Shoreditch</a></li>
+    <li><a href="article-16-things-to-do-in-covent-garden-for-singles.html">Things to Do in Covent Garden for Singles</a></li>
+    <li><a href="article-17-dating-events-near-london-bridge.html">Dating Events Near London Bridge</a></li>
+    <li><a href="article-18-best-nightlife-for-singles-in-central-london.html">Best Nightlife for Singles in Central London</a></li>
+    <li><a href="article-19-where-to-go-out-alone-in-london-and-actually-enjoy-it.html">Where to Go Out Alone in London and Actually Enjoy It</a></li>
+    <li><a href="article-2-are-dating-events-safe-london-edition.html">Are Dating Events Safe London Edition</a></li>
+    <li><a href="article-20-why-dating-in-london-feels-so-hard-and-what-actually-works.html">Why Dating in London Feels So Hard and What Actually Works</a></li>
+    <li><a href="article-21-how-to-meet-people-in-london-without-dating-apps.html">How to Meet People in London Without Dating Apps</a></li>
+    <li><a href="article-22-how-to-approach-someone-in-real-life-without-being-weird.html">How to Approach Someone in Real Life Without Being Weird</a></li>
+    <li><a href="article-23-inside-a-live-dating-show-what-its-really-like.html">Inside a Live Dating Show What Its Really Like</a></li>
+    <li><a href="article-24-we-put-3-men-behind-a-curtain-heres-what-happened.html">We Put 3 Men Behind a Curtain Heres What Happened</a></li>
+    <li><a href="article-25-the-most-awkward-dating-show-moments-and-why-they-work.html">The Most Awkward Dating Show Moments and Why They Work</a></li>
+    <li><a href="article-26-what-men-and-women-actually-say-when-they-cant-see-each-other.html">What Men and Women Actually Say When They Cant See Each Other</a></li>
+    <li><a href="article-27-behind-the-scenes-of-a-london-dating-show.html">Behind the Scenes of a London Dating Show</a></li>
+    <li><a href="article-28-why-everyone-in-london-is-still-single.html">Why Everyone in London Is Still Single</a></li>
+    <li><a href="article-29-what-women-in-london-actually-want-unfiltered.html">What Women in London Actually Want Unfiltered</a></li>
+    <li><a href="article-3-are-dating-apps-dead.html">Are Dating Apps Dead</a></li>
+    <li><a href="article-30-what-men-get-wrong-about-dating-in-london.html">What Men Get Wrong About Dating in London</a></li>
+    <li><a href="article-31-what-to-wear-to-a-dating-event-in-london.html">What to Wear to a Dating Event in London</a></li>
+    <li><a href="article-32-going-alone-to-a-dating-event-is-it-weird.html">Going Alone to a Dating Event Is It Weird</a></li>
+    <li><a href="article-33-how-to-have-fun-at-a-singles-event-even-if-youre-shy.html">How to Have Fun at a Singles Event Even If Youre Shy</a></li>
+    <li><a href="article-4-10-brutally-honest-truths-about-dating-in-london copy.html">10 Brutally Honest Truths About Dating in London</a></li>
+    <li><a href="article-5-the-most-common-first-date-mistakes.html">The Most Common First Date Mistakes</a></li>
+    <li><a href="article-6-what-makes-a-great-first-date.html">What Makes a Great First Date</a></li>
+    <li><a href="article-7-fun-things-to-do-in-london-for-singles.html">Fun Things to Do in London for Singles</a></li>
+    <li><a href="article-8-unique-date-night-ideas-in-london-that-arent-awkward.html">Unique Date Night Ideas in London That Arent Awkward</a></li>
+    <li><a href="article-9-where-to-meet-singles-in-london-in-your-30s.html">Where to Meet Singles in London in Your 30s</a></li>
 </ul>
 
   </p>
