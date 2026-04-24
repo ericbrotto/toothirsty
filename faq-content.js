@@ -125,6 +125,13 @@ window.faqContent = `
 </details>
 
 <details>
+  <summary>Is there a minimum age requirement?</summary>
+  <p>
+    Yes. You need to be 18 years of age or older to purchase a ticket or attend. Proof of ID may be required. 
+  </p>
+</details>
+
+<details>
   <summary>Do you welcome stag dos or hen dos?</summary>
   <p>
     Yes.
