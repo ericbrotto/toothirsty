@@ -45,8 +45,8 @@ window.faqContent = `
 </details>
 
 <details>
-  <summary>I want to be a Contestant, but do not want to be filmed. Is that option.</summary>
-  <p>We film all shows and post them on line, so that is not an option.
+  <summary>I want to be a Contestant, but do not want to be filmed. Is that an option?</summary>
+  <p>We film all shows and post them online, so that is not an option.
   </p>
 </details>
 
