@@ -22,7 +22,7 @@ window.faqContent = `
 <details>
   <summary>I'm married / have a partner. Is this event suitable for me?</summary>
   <p>
-   Yes, 100%. Too Thirsty is primarily a comedy show and party, so all are welcome for that. The social ice breakers we play are only a small part, and are completely optional. 
+   Yes, 100%. Too Thirsty is primarily a comedy show and party, so all are welcome for that.
   </p>
 </details>
 
@@ -30,7 +30,7 @@ window.faqContent = `
 <details>
   <summary>How do I become a Contestant?</summary>
   <p>
-    <a href="https://tickets.toothirsty.com/">Buy a ticket</a> and check the box that says you are interested in being a Contestant. After that, send us a <a href="https://wa.me/447544856788">WhatsApp message</a> with a 1 minute voice note saying why you want to be on the show and that you agree to be filmed for the purposes of social media. Also state your age. Lastly, please send us a profile pic or a link to your Instagram or TikTok (be sure it's not set to private).
+    <a href="https://tickets.toothirsty.com/">Buy a ticket</a> and check the box that says you are interested in being a Contestant. After that, send us a <a href="https://wa.me/447544856788">WhatsApp message</a> with a 1 minute voice note saying why you want to be on the show. Also state your age. Lastly, please send us a profile pic or a link to your Instagram or TikTok (be sure it's not set to private).
     <br><br>
     PLEASE NOTE: Expressing interest in being a Contestant does not guarantee a place on stage. Also, you may retract your application at anytime. Just say you're not feeling it anymore.
     <br><br>
@@ -39,16 +39,28 @@ window.faqContent = `
 </details>
 
 <details>
+  <summary>What happens if I'm chosen to become a Contestant?</summary>
+  <p>If you are chosen to be a Contestant, we will send you a text the night of the event. You will be brought on stage and given a set of questions, but you can also ask your own. 
+  </p>
+</details>
+
+<details>
+  <summary>I want to be a Contestant, but do not want to be filmed. Is that option.</summary>
+  <p>We film all shows and post them on line, so that is not an option.
+  </p>
+</details>
+
+<details>
   <summary>Is this a dating event? Can I meet new people even if I don't go on stage?</summary>
   <p>
-    It's not exclusively a dating event, but there will be light social games to facilitate connecting with others, many of whom are single! And of course, there is the After Party. Woot! Woot!
+    It's not exclusively a dating event, but many people who attend are single. If you are looking to date, but don't want to go on stage, there are opportunities to meet people during the after party. 
   </p>
 </details>
 
 <details>
   <summary>Is this real? Do people actually get dates on stage?</summary>
   <p>
-    Yes. 100% of our Contestants have gone on a date.
+    Yes. So far around 70% of matches go on a date.
   </p>
 </details>
 
@@ -59,24 +71,18 @@ window.faqContent = `
   </p>
 </details>
 
-<details>
-  <summary>Are there prizes?</summary>
-  <p>
-    Yes. There are prizes for both audience members and Contestants.
-  </p>
-</details>
 
 <details>
   <summary>What is the itinerary of the show?</summary>
   <p>
-    Check your ticket, but usually the show starts at 8, finishes at 9:30 with a party after.
+    Please check the event details listed on <a href="https://tickets.toothirsty.com/">ticketing website.</a>  
   </p>
 </details>
 
 <details>
   <summary>Where is the comedy show and where is the party?</summary>
   <p>
-    Both the comedy show and the party are at the same location. <a href="https://tickets.toothirsty.com/">Click here</a> for more information on that.
+    Both the comedy show and the party are at the same location, Big Belly Comedy Club Southbank. <a href="https://tickets.toothirsty.com/">Click here</a> for details.
   </p>
 </details>
 
@@ -88,9 +94,9 @@ window.faqContent = `
 </details>
 
 <details>
-  <summary>Do you offer refunds?</summary>
+  <summary>Do you offer refunds? Can I transfer my ticket to another date? Can I resell my ticket?</summary>
   <p>
-    You can buy refund protection at the point of sale. This covers refunds under certain circumstances.
+    We offer refunds, but only if you buy refund protection at the point of sale. This covers refunds under certain circumstances and is managed by a 3rd party. You cannot transfer your ticket to another event. To transfer or resell tickets, you would be required to go through our partner <a href="https://tixel.com/uk/">Tixel</a>.  
   </p>
 </details>
 
@@ -99,7 +105,7 @@ window.faqContent = `
 <details>
   <summary>Do you offer discounted tickets?</summary>
   <p>
-    Sometimes. Especially if you're coming as a group. Send us a message on <a href="https://wa.me/447544856788">WhatsApp</a>.
+    Sometimes. Send us a DM on <a href="https://wa.me/447544856788">WhatsApp</a> and we will do our best.
   </p>
 </details>
 
@@ -125,6 +131,13 @@ window.faqContent = `
 </details>
 
 <details>
+  <summary>What is the age range of the people who attend?</summary>
+  <p>
+    All ages attend. The core crowd is 27 to 37, approximately. 
+  </p>
+</details>
+
+<details>
   <summary>Is there a minimum age requirement?</summary>
   <p>
     Yes. You need to be 18 years of age or older to purchase a ticket or attend. Proof of ID may be required. 
@@ -134,14 +147,14 @@ window.faqContent = `
 <details>
   <summary>Do you welcome stag dos or hen dos?</summary>
   <p>
-    Yes.
+    Yes, but only if you're well behaved. 
   </p>
 </details>
 
 <details>
   <summary>How can I contact you?</summary>
   <p>
-    Email us at team@toothirsty.com or DM us on <a href="https://wa.me/447544856788">WhatsApp</a> at ‪+44 7544 856788‬. Don't message us on social media. We're slow to respond on there.
+    Email us at team@toothirsty.com or DM us on <a href="https://wa.me/447544856788">WhatsApp</a> at ‪+44 7544 856788‬.
   </p>
 </details>
 
