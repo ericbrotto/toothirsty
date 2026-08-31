@@ -196,9 +196,9 @@ window.faqContent = `
 </details>
 
 <details>
-  <summary>Refunds, Ticket transfers and Reselling</summary>
+  <summary>Refunds, ticket transfers and reselling</summary>
   <p>
-    Refunds are only possible if you buy refund protection at the point of sale. This covers refunds under certain circumstances and is managed by XCover. You can use the link in your confirmation email to start a claim directly with their support team. For more information, you can visit their website <li><a href="https://www.xcover.com/en-us">XCover</a></li> 
+    Refunds are only possible if you buy refund protection at the point of sale. This covers refunds under certain circumstances and is managed by XCover. You can use the link in your confirmation email to start a claim directly with their support team. For more information, you can visit their website <a href="https://www.xcover.com/en-us">XCover</a>. 
   </p>
 
 <p>
