@@ -93,14 +93,6 @@ window.faqContent = `
   </p>
 </details>
 
-<details>
-  <summary>Do you offer refunds? Can I transfer my ticket to another date? Can I resell my ticket?</summary>
-  <p>
-    We offer refunds, but only if you buy refund protection at the point of sale. This covers refunds under certain circumstances and is managed by a 3rd party. You cannot transfer your ticket to another event. To transfer or resell tickets, you would be required to go through our partner <a href="https://tixel.com/uk/">Tixel</a>.  
-  </p>
-</details>
-
-
 
 <details>
   <summary>Do you offer discounted tickets?</summary>
@@ -200,6 +192,17 @@ window.faqContent = `
     <li><a href="article-9-where-to-meet-singles-in-london-in-your-30s.html">Where to Meet Singles in London in Your 30s</a></li>
 </ul>
 
+  </p>
+</details>
+
+<details>
+  <summary>Refunds, Ticket transfers and Reselling</summary>
+  <p>
+    Refunds are only possible if you buy refund protection at the point of sale. This covers refunds under certain circumstances and is managed by XCover. You can use the link in your confirmation email to start a claim directly with their support team. For more information, you can visit their website <li><a href="https://www.xcover.com/en-us">XCover</a></li> 
+  </p>
+
+<p>
+It is not possible to transfer your ticket to another event. There is the option of reselling your ticket through our partner <a href="https://tixel.com/uk/">Tixel</a>.  
   </p>
 </details>
 
