@@ -206,6 +206,11 @@ It is not possible to transfer your ticket to another event. There is the option
   </p>
 </details>
 
+<p>
+Discounts and special offers cannot be applied to tickets already purchased.  
+  </p>
+</details>
+
 
 
 
