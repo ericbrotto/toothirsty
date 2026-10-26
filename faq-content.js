@@ -204,7 +204,6 @@ window.faqContent = `
 <p>
 It is not possible to transfer your ticket to another event. There is the option of reselling your ticket through our partner <a href="https://tixel.com/uk/">Tixel</a>.  
   </p>
-</details>
 
 <p>Discounts and special offers cannot be applied to tickets already purchased.</p>
 </details>
